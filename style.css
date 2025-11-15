@@ -1,0 +1,15 @@
+button {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  line-height: 60px;
+  padding: 0;
+  border: 2px solid #333;
+  box-sizing: border-box;
+  vertical-align: top;
+  text-align: center;
+}
+
+#board{
+  text-align: center;
+}

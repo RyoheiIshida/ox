@@ -7,8 +7,6 @@ function renderBoard(){
     board.forEach((cell,i)=>{
         const btn =document.createElement('button');
         btn.textContent=cell;
-        btn.style.width='60px';
-        btn.style.height='60px';
         btn.onclick=()=>makeMove(i);
         boardDiv.appendChild(btn);
         if(i%3===2){
